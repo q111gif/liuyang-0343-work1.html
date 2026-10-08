@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简介 - 刘阳</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f8f0f6;
+            font-family: "Microsoft Yahei", sans-serif;
+            padding: 40px;
+        }
+        .card {
+            width: 600px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 35px;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(180,120,160,0.15);
+        }
+        h1 {
+            text-align: center;
+            color: #7b4173;
+            margin-bottom: 20px;
+        }
+        /* 头像样式 */
+        .avatar-box{
+            text-align:center;
+            margin-bottom:20px;
+        }
+        .avatar{
+            width:160px;
+            height:160px;
+            border-radius:50%;
+            border:3px solid #b565a7;
+            object-fit:cover;
+        }
+        .info-item {
+            font-size: 18px;
+            line-height: 2.2;
+            color: #444444;
+        }
+        .label {
+            font-weight: bold;
+            color: #b565a7;
+        }
+        .intro-text{
+            line-height:1.8;
+            margin-top:8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>个人简介</h1>
+        <!-- 图片占位区域 -->
+        <div class="avatar-box">
+            <!-- 把src="avatar.jpg"，换成你的图片文件名，图片和html放在同一个文件夹 -->
+            <img class="avatar" src="avatar.jpg" alt="个人照片">
+        </div>
+        <div class="info-item">
+            <p><span class="label">姓名：</span>刘阳</p>
+            <p><span class="label">年龄：</span>18岁</p>
+            <p><span class="label">性别：</span>女</p>
+            <p><span class="label">籍贯：</span>陕西咸阳</p>
+            <p><span class="label">专业：</span>Web前端技术</p>
+            <p><span class="label">学号后四位：</span>0343</p>
+            <p><span class="label">兴趣爱好：</span>阅读小说、跑步</p>
+            <p><span class="label">自我介绍：</span></p>
+            <p class="intro-text">
+                我叫刘阳，今年18岁，来自陕西咸阳。目前正在学习Web前端开发，刚刚入门HTML与CSS。
+                闲暇时喜欢看小说，也热爱跑步。希望可以持续学习前端知识，动手做出更多美观实用的网页。
+            </p>
+        </div>
+    </div>
+</body>
+</html>
